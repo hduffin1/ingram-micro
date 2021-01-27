@@ -97,7 +97,7 @@ header {
 header .nav-logo {
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 80px;
+  height: 90px;
 }
 
 .nav ul {
@@ -310,6 +310,14 @@ header .nav-logo {
   height: 300px;
   right: 0;
   bottom: 0;
+}
+
+footer .flex {
+  justify-content: flex-end;
+}
+footer .footer-logo {
+  height: 80px;
+  padding: 20px 0 40px;
 }
 
 /*# sourceMappingURL=css.css.map */

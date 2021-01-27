@@ -1,5 +1,8 @@
 <footer>
 	<div class="container">
+		<div class="flex">
+		<img src="<?php bloginfo( 'template_directory' ); ?>/images/ingram-express.svg" class="footer-logo">
+	</div>
 	</div>
 </footer>
 

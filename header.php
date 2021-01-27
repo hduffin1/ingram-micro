@@ -18,7 +18,7 @@
     <div class="container">
         <div class="flex">
 
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo.svg" class="nav-logo" alt=""></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo.png" class="nav-logo" alt=""></a>
 
             <nav class="nav">
             <a class="skip" href="#menu"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bar.svg" class="btn" alt="menu bar"></a>

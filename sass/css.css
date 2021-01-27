@@ -56,7 +56,7 @@ html {
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
-.blue a {
+#gform_submit_button_1, .blue a {
   background-color: #35444f;
   padding: 20px 60px;
   border-radius: 10px;
@@ -310,6 +310,45 @@ header .nav-logo {
   height: 300px;
   right: 0;
   bottom: 0;
+}
+
+.reg-wrapper {
+  max-width: 600px;
+  padding: 40px 0;
+}
+.reg-wrapper .flex {
+  justify-content: flex-start;
+}
+.reg-wrapper h2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.reg-wrapper .reg-icon {
+  height: 90px;
+}
+
+.gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label {
+  color: #fff;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+  color: #fff;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+  background-color: #2f75bb;
+  border: 1px solid #fff;
+}
+
+.gfield_consent_label {
+  color: #fff;
+}
+
+#gform_submit_button_1 {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: none;
 }
 
 footer .flex {

@@ -4,18 +4,21 @@
 
 <div class="heading-wrapper">
     <div class="container">
-        <h1><?php the_field('header');?></h1>
-        <h2><?php the_field('date');?></h2>
+        <h1><?php the_field('header' ,5);?></h1>
+        <h2><?php the_field('date' ,5);?></h2>
         <img src="<?php bloginfo( 'template_directory' ); ?>/images/clouds.svg" class="clouds">
     </div>
 </div>
 
 <div class="blue">
     <div class="container">
-        <div class="home-content">
+        	<div class="reg-wrapper">
+        		<div class="flex">
+        		<img src="<?php bloginfo( 'template_directory' ); ?>/images/reg-icon.svg" class="reg-icon">
+        		<h2>Register Now</h2>
+        	</div>
             <?php the_content();?>
-        </div>
-
+        	</div>
     </div>
 
     <img src="<?php bloginfo( 'template_directory' ); ?>/images/white-triangle.svg" class="white-triangle">

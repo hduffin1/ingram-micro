@@ -1,0 +1,42 @@
+.reg-wrapper {
+    max-width: 600px;
+    padding: 40px 0;
+
+    .flex {
+        justify-content: flex-start;
+    }
+
+    h2 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .reg-icon {
+        height: 90px;
+    }
+}
+
+.gform_wrapper .top_label .gfield_label, .gform_wrapper legend.gfield_label {
+    color: $white;
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label {
+    color: $white;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    background-color: $blue;
+    border: 1px solid $white;
+}
+
+.gfield_consent_label {
+    color: $white;
+}
+
+#gform_submit_button_1 {
+    display: inline-block;
+    margin: 0 auto;
+    @extend %cta;
+    margin-bottom: 100px;
+    border: none;
+}

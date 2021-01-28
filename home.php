@@ -16,7 +16,7 @@
             <?php the_content();?>
         </div>
 
-        <a href="" class="cta">Register</a>
+        <a href="register" class="cta">Register</a>
     </div>
 
     <img src="<?php bloginfo( 'template_directory' ); ?>/images/white-triangle.svg" class="white-triangle">

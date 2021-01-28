@@ -6,4 +6,10 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 22px;
+
+    &:hover {
+        background-color: $white;
+        color: $blue;
+        transition: .4s;
+    }
 }

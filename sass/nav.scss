@@ -1,6 +1,6 @@
 header {
     top: 0px;
-    z-index: 1000;
+    z-index: 100000;
     width: 100%;
     transition: top 0.2s ease-in-out;
 
@@ -69,6 +69,7 @@ header {
 .js nav li {
   padding: 10px 7px;
   margin: 0;
+  background-color: $white;
 }
 
 /* Style the list item links for ease of touch on small screens */
@@ -112,6 +113,14 @@ max-height: 70em;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  header {
+    .nav-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+  }
 
   .js .nav ul {
     right: 0px;

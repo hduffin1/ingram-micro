@@ -1,6 +1,7 @@
 .heading-wrapper {
     background-color: $darkblue;
     position: relative;
+    z-index: -1;
 
     h1 {
         padding: 30px 0;
@@ -17,8 +18,8 @@
 
     .clouds {
         position: absolute;
-        height: 250px;
-        margin-top: 20px;
+        height: 200px;
+        margin-top: 40px;
         top: 0;
         right: 0;
         z-index: 1;
@@ -46,4 +47,61 @@
         right: 0;
         bottom: 0;
     }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .heading-wrapper {
+        .clouds {
+            display: none;
+        }
+    }
+
+    .blue {
+         a {
+            margin-bottom: 300px;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) 
+and (max-width: 768px) {
+    .heading-wrapper {
+        .clouds {
+            display: none;
+        }
+    }
+
+    .blue {
+         a {
+            margin-bottom: 300px;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+and (max-width: 991px) {
+    .heading-wrapper {
+        h1 {
+            max-width: 65%;
+        }
+
+        .clouds {
+            height: 100px;
+        }
+    }
+
+    .blue {
+         a {
+            margin-bottom: 150px;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px)
+and (max-width: 1200px) {
+
 }

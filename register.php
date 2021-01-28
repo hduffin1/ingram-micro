@@ -24,6 +24,4 @@
     <img src="<?php bloginfo( 'template_directory' ); ?>/images/white-triangle.svg" class="white-triangle">
 </div>
 
-
-
 <?php get_footer(); ?>

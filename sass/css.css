@@ -65,6 +65,11 @@ html {
   font-weight: 700;
   font-size: 22px;
 }
+#gform_submit_button_1:hover, .blue a:hover {
+  background-color: #fff;
+  color: #2f75bb;
+  transition: 0.4s;
+}
 
 h1 {
   font-size: 60px;
@@ -88,9 +93,19 @@ p {
   font-size: 18px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
 header {
   top: 0px;
-  z-index: 1000;
+  z-index: 100000;
   width: 100%;
   transition: top 0.2s ease-in-out;
 }
@@ -154,6 +169,7 @@ header .nav-logo {
 .js nav li {
   padding: 10px 7px;
   margin: 0;
+  background-color: #fff;
 }
 
 /* Style the list item links for ease of touch on small screens */
@@ -199,6 +215,12 @@ header .nav-logo {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  header .nav-logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+  }
+
   .js .nav ul {
     right: 0px;
     width: 100%;
@@ -272,6 +294,7 @@ header .nav-logo {
 .heading-wrapper {
   background-color: #35444f;
   position: relative;
+  z-index: -1;
 }
 .heading-wrapper h1 {
   padding: 30px 0;
@@ -286,8 +309,8 @@ header .nav-logo {
 }
 .heading-wrapper .clouds {
   position: absolute;
-  height: 250px;
-  margin-top: 20px;
+  height: 200px;
+  margin-top: 40px;
   top: 0;
   right: 0;
   z-index: 1;
@@ -312,6 +335,40 @@ header .nav-logo {
   bottom: 0;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .heading-wrapper .clouds {
+    display: none;
+  }
+
+  .blue a {
+    margin-bottom: 300px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .heading-wrapper .clouds {
+    display: none;
+  }
+
+  .blue a {
+    margin-bottom: 300px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .heading-wrapper h1 {
+    max-width: 65%;
+  }
+  .heading-wrapper .clouds {
+    height: 100px;
+  }
+
+  .blue a {
+    margin-bottom: 150px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
 .reg-wrapper {
   max-width: 600px;
   padding: 40px 0;
@@ -358,5 +415,25 @@ footer .footer-logo {
   height: 80px;
   padding: 20px 0 40px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  footer .flex {
+    justify-content: center;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  footer .flex {
+    justify-content: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer .flex {
+    justify-content: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
 
 /*# sourceMappingURL=css.css.map */

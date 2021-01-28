@@ -9,7 +9,7 @@
 
     <title>The Secret to CX Success | Ingram Cisco CX Summit</title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=12467327" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=12467567" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
   </head>
 <body>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="flex">
 
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo.png" class="nav-logo" alt=""></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo2.png" class="nav-logo" alt=""></a>
 
             <nav class="nav">
             <a class="skip" href="#menu"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bar.svg" class="btn" alt="menu bar"></a>

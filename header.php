@@ -7,6 +7,16 @@
     The Secret to CX Success | Ingram Cisco CX Summit
     Ingram Micro understands the power of Cisco’s CX approach and we’re now part of it. We have achieved the Cisco Customer Experience Specialization – the first distributor in the UK to earn this. We have a dedicated Cisco CX Practice Lead, customers success managers and offer full lifecycle services. We’re ready to support resellers who want to capitalise on Cisco CX.">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77382555-29"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-77382555-29');
+    </script>
+
     <title>The Secret to CX Success | Ingram Cisco CX Summit</title>
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=12467567" />
@@ -18,7 +28,7 @@
     <div class="container">
         <div class="flex">
 
-        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo2.png" class="nav-logo" alt=""></a>
+        <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo( 'template_directory' ); ?>/images/nav-logo3.png" class="nav-logo" alt=""></a>
 
             <nav class="nav">
             <a class="skip" href="#menu"><img src="<?php bloginfo( 'template_directory' ); ?>/images/bar.svg" class="btn" alt="menu bar"></a>

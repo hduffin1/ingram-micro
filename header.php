@@ -19,7 +19,7 @@
 
     <title>The Secret to CX Success | Ingram Cisco CX Summit</title>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=12467567" />
+    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/sass/css.css?v=280120213" />
     <script>(function(H){H.className=H.className+="js"})(document.documentElement)</script>
   </head>
 <body>

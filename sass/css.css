@@ -344,6 +344,9 @@ header .nav-logo {
   .blue a {
     margin-bottom: 300px;
   }
+  .blue .white-triangle {
+    display: none;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -353,6 +356,9 @@ header .nav-logo {
 
   .blue a {
     margin-bottom: 300px;
+  }
+  .blue .white-triangle {
+    display: none;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -366,6 +372,9 @@ header .nav-logo {
 
   .blue a {
     margin-bottom: 150px;
+  }
+  .blue .white-triangle {
+    display: none;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -409,6 +418,7 @@ header .nav-logo {
   padding: 0;
   font-size: inherit;
   background-color: inherit;
+  margin-bottom: 0;
 }
 .gfield_consent_label a:hover {
   background-color: inherit;

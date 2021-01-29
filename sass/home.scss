@@ -61,6 +61,10 @@
          a {
             margin-bottom: 300px;
         }
+
+        .white-triangle {
+            display: none;
+        }
     }
 }
 
@@ -76,6 +80,10 @@ and (max-width: 768px) {
     .blue {
          a {
             margin-bottom: 300px;
+        }
+
+        .white-triangle {
+            display: none;
         }
     }
 }
@@ -96,6 +104,10 @@ and (max-width: 991px) {
     .blue {
          a {
             margin-bottom: 150px;
+        }
+
+        .white-triangle {
+            display: none;
         }
     }
 }
